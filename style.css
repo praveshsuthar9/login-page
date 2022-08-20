@@ -1,0 +1,81 @@
+body {
+    background-image: url(image/cofee.webp);
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    
+
+    
+}
+
+.loginbox {
+    width: 340px;
+    height: 470px;
+    background-color: rgb(0,0,0,0.5);
+    color: #fff;
+    left: 40%;
+    top: 15%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    left: 34%;
+    top: -10%;
+    border-radius: 50%;
+
+}
+form{
+    padding: 30px;
+    position: relative;
+    transform: translate(20px,20x);
+    box-shadow: 3px 4px 5px #222;
+}
+
+form h1 {
+text-align: center;
+font-size: 38px;
+font-family: monospace;
+font-weight: bold;
+
+}
+
+form label,p,input {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #fefe;
+    background-color: transparent;
+    color: #fff;
+    padding: 8PX 0PX;
+    
+}
+
+p {
+    padding-top: 10px;
+}
+
+button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: orangered;
+    color: #fff;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
